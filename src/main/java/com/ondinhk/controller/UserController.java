@@ -33,7 +33,6 @@ public class UserController {
 
     @RequestMapping(value = "/add-user", method = RequestMethod.POST)
     public String viewUser(@ModelAttribute("userModel") UserModel user) {
-        // model.addAttribute("userModel", user);
         return "viewUser";
     }
 }

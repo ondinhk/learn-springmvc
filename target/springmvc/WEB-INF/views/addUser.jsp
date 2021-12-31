@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>Form User</title>
     </head>
 
     <body>
@@ -27,7 +27,8 @@
                 <form:options items="${listPosition}" />
             </form:select>
             <br>
-            <label for="">Favorite checkbox</label>
+            <label for="">Favorite checkbox:</label>
+            <br>
             <form:checkboxes path="favorites" items="${listFavorite}" />
             <input type="submit" value="Submit" />
         </form:form>

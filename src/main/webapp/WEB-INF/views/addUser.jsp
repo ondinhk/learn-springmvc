@@ -27,7 +27,8 @@
                 <form:options items="${listPosition}" />
             </form:select>
             <br>
-            <label for="">Favorite checkbox</label>
+            <label for="">Favorite checkbox:</label>
+            <br>
             <form:checkboxes path="favorites" items="${listFavorite}" />
             <input type="submit" value="Submit" />
         </form:form>
