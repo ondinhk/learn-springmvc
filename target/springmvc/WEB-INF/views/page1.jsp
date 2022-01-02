@@ -10,7 +10,7 @@
     </head>
 
     <body>
-        <h1>Page 1</h1>
+        <h1>Page 1 -> redirect -> page2 -> home</h1>
         <form:form method="POST" action="redirect">
             <input type="submit" value="Redirect" />
         </form:form>
